@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .left-col {
+    flex: 1 1 300px;
+    margin-right: 20px;
+  }
+  
+  .right-col {
+    flex: 2 1 600px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .left-col {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .right-col {
+      flex-basis: 100%;
+    }
+  }
